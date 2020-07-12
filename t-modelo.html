@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es-ES ">
+  <head>
+    <meta charset="utf-8">
+    <title>T-Modelo</title>
+  	<style type="text/css">
+  		#main{
+  			 /*background-color: blue; */
+  			 width: 700px; 	
+  			 height: 100%;
+			 margin-left: auto;
+			 margin-right: auto;
+			 /*margin-top: -10px;*/
+  		}
+  		
+  		#header{
+  			background-color: #180e0b; 
+  			height: 50px;
+  		}
+
+  		#banner{
+  			max-width:100%;
+			max-height:100%;
+  		}
+
+  		#main2{
+			  background-color: #ffffff; 
+			  padding-bottom: 40px;
+			  padding-top: 40px;
+  		}
+  		#tbMain2 td{
+  			/*border: solid black 1px;*/
+  			padding-left: 10px;
+  			padding-right: 10px;
+
+		  } 
+  		.imgMain{
+  			max-width:140px;
+			max-height:140px;
+			background-size: auto 50%;
+
+  		}
+  		#article{
+  			background-color: #372019; 
+  			font-size: 11px;
+			color: #ffffff;
+			padding-top: 40px;
+			padding-bottom: 30px;
+			
+		  }
+		  #article table{
+			border-spacing:0px;
+			color: #8c5240;
+		  }
+		  
+  		.imgArticle{
+  			max-width:80%;
+			max-height:80%;			
+
+  		}
+  		.imgArticle3{
+  			max-width:100%;
+			max-height:80%;	
+
+  		}
+
+  		#section{
+			 background-color: #261611; 
+			 color: #c0745d;
+			  font-size: 11px;
+			  padding-top: 10px;
+			  padding-bottom: 1px;
+		}
+
+		#article td{
+			/*border: solid black 1px;*/
+			
+			padding-bottom: 10px;
+
+		}
+	
+		.articleTdImg{
+			padding-left: 10px;
+			padding-bottom: 10px;
+			
+		}
+
+		.articleTdText{
+			padding-right: 10px;
+			padding-bottom: 10px;
+			width: 20px; 	
+  			height: 20px;	
+		}
+		
+  		#footer{
+			background-color: #180e0b; 
+			padding-top: 20px;
+			padding-bottom: 20px;
+	  	}
+		  
+	
+		  
+  		tr.spaceUnder>td {
+		  padding-bottom: 10px;
+		  padding-top: 10px;
+		}
+
+		header a{
+			color: #ffffff;
+			text-align: center;
+			/*background-color: black;*/
+			padding: 5px 5px;
+			margin-top: auto;
+			margin-bottom: auto;
+			text-decoration: none;
+		}
+
+	/*	header a:hover{
+			background-color: #56c9d6;
+
+		}*/
+
+		header a:active{
+			background-color: #56c9d6;
+		}
+
+		header h1{
+			color: #ffffff;
+			float: left;
+			margin-top: auto;
+			margin-bottom: auto;
+		} 
+		
+		header nav{
+			float: right;
+			color: #ffffff;
+			padding: 14px 16px;
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+
+		#footer{
+			color: #c0745d;	
+		}
+
+		#subDiv9 a{
+			color: #c0745d;
+			 list-style: none;
+		}
+		#subDiv8 {
+			float: left;
+			width: 75%;
+			height: 100%;
+			box-sizing:border-box;
+			text-align: "justify";
+			font-size: 11px;
+			color: #c0745d;	
+		}
+		#navBar3 {
+			width: 100%;
+			height: 100%;
+			margin-left: 0px;
+			margin-right: 0px;
+			margin-top: 10px;
+			margin-bottom: 1px;
+			overflow: hidden;	
+		}
+		ul{list-style: none;};}
+
+  	</style>
+  </head>
+  <body>
+
+  	<div id="main">
+  		
+  		<header id="header">
+  			<h1>Autonomy</h1>
+  			<nav>
+				<a href="#">Home Pages</a>
+				<a href="#">Pages 2</a>
+				<a href="#">Pages 3</a>
+				<a href="#">Pages 4</a>
+			</nav>
+  		</header> 	
+  		<div id="img"><img id="banner" src="fotosp/banner.jpg"></div>
+
+  		<div id="main2">
+  			
+  			<table id=tbMain2>
+  				<tr align="center">
+  					<td><img class="imgMain" src="fotosp/pics02.jpg"></td>
+  					<td><img class="imgMain" src="fotosp/pics03.jpg"></td>
+  					<td><img class="imgMain" src="fotosp/pics04.jpg"></td>
+  					<td><img class="imgMain" src="fotosp/pics05.jpg"></td>
+  				</tr>
+  				<tr align="center">
+  					<td>pics02 1</td>
+  					<td>pics03 2</td>
+  					<td>pics04 3</td>
+  					<td>pics05 4</td>  					
+  				</tr>
+  				<tr style="text-align:justify; font-size: 11px; color: gray  ">
+					<td>
+						esta es una prueba del comportamiento de la matriz que sera impresa debajo de las fotos imagen 1
+					</td>
+					<td>
+						esta es una prueba del comportamiento de la matriz que sera impresa debajo de las fotos imagen 2
+					</td>
+					<td>
+						esta es una prueba del comportamiento de la matriz que sera impresa debajo de las fotos imagen 3
+					</td>
+					<td>
+						esta es una prueba del comportamiento de la matriz que sera impresa debajo de las fotos imagen 4
+					</td>
+				</tr>
+  			</table>
+  		</div>
+  		<div id="article">
+  			<table class="tbArticle" border="0">
+  				<tr>
+  					<th colspan="2">Encabesado1</th>
+  					<th colspan="2">Encabesado1</th>
+  					<th width=50%>Encabesado1</th>
+  				</tr>
+  				<tr>
+  					<td class="articleTdImg"><img class="imgArticle" src="fotosp/pics06.jpg"></td>
+  					<td class="articleTdText"> Yo soy el td 2 de 2, soy parte del tr 1 de 3, perteneciente a la imagen 6</td>
+  					<td class="articleTdImg"><img class="imgArticle" src="fotosp/pics09.jpg"></td>
+  					<td class="articleTdText"> Yo soy el td 2 de 2, soy parte del tr 1 de 3, perteneciente a la imagen 6</td>
+  					<td rowspan="3" valign="top">
+  						<img class="imgArticle3" src="fotosp/pics12.jpg"><br><br>
+  						Pensando mais a longo prazo, a consulta aos diversos militantes não pode mais se dissociar dos conhecimentos estratégicos para atingir a excelência.
+  						Pensando mais a longo prazo, a consulta aos diversos militantes não pode mais se dissociar dos conhecimentos estratégicos para atingir a excelência.
+  					</td>
+  				</tr>
+  				<tr class="spaceUnder">
+  					<td class="articleTdImg"><img class="imgArticle" src="fotosp/pics07.jpg"></td>
+  					<td class="articleTdText"> Yo soy el td 2 de 2, soy parte del tr 1 de 3, perteneciente a la imagen 6</td>
+  					<td class="articleTdImg"><img class="imgArticle" src="fotosp/pics10.jpg"></td>
+  					<td class="articleTdText"> Yo soy el td 2 de 2, soy parte del tr 1 de 3, perteneciente a la imagen 6</td>
+  					
+  				</tr>
+  				<tr class="spaceUnder">
+  					<td class="articleTdImg"><img class="imgArticle" src="fotosp/pics08.jpg"></td>
+  					<td class="articleTdText"> Yo soy el td 2 de 2, soy parte del tr 1 de 3, perteneciente a la imagen 6</td>
+  					<td class="articleTdImg"><img class="imgArticle" src="fotosp/pics11.jpg"></td>
+  					<td class="articleTdText"> Yo soy el td 2 de 2, soy parte del tr 1 de 3, perteneciente a la imagen 6</td>
+  					
+  				</tr>
+  
+			 </table>
+		</div>
+  		<div id="section">
+			<div id="navBar3">
+				<div id="subDiv8">
+					<h2> djnaosjdn af as fasf</h2>
+					<div>
+						Quando falamos sobre a rede social, o que vem à mente em primeiro lugar são sites como Facebook, Twitter e LinkedIn ou aplicativos como Snapchat e Instagram, típicos de hoje. Mas a idéia, no entanto, é muito antiga: na sociologia, por exemplo, o conceito de rede social tem sido usado para analisar interações entre indivíduos, grupos, organizações ou mesmo sociedades inteiras desde o final do século XIX.
+
+						Na Internet, as redes sociais provocaram discussões como a falta de privacidade, mas também serviram como meio de convocar protestos públicos. Essas plataformas também criaram uma nova forma de relacionamento entre empresas e clientes
+
+					<p>
+						Uma rede social é definida como uma estrutura social composta por pessoas, organizações ou entidades, conectadas umas às outras por um ou mais tipos de relacionamentos
+					</p>
+					</div>
+				</div>
+
+
+				<div id="subDiv9">
+					<h2> djnaosjdn af as fasf</h2>
+					<ul>
+					<li><a href="http://www.google.com.br" target="_blank">Link/www.google.com.br</a></li>
+					<li><a href="https://www.facebook.com.br" target="_blank" >Link/www.facebook.com.br</a></li>
+					<li><a href="https://www.instagram.com.br" target="_blank">Link/www.instagram.com.br</a></li>
+					<li><a href="https://www.twiter.com.br" target="_blank">Link/www.twiter.com.br</a></li>
+					<li><a href="https://www.youtube.com.br" target="_blank">Link/www.youtube.com.br</a></li> 
+					<li><a href="https://www.whasapp.com.br" target="_blank">Link/www.whasapp.com.br</a></li>
+					<li><a href="https://www.whasapp.com.br" target="_blank">Link/www.whasapp.com.br</a></li>
+					<li><a href="https://www.whasapp.com.br" target="_blank">Link/www.whasapp.com.br</a></li>
+					<li><a href="https://www.whasapp.com.br" target="_blank">Link/www.whasapp.com.br</a></li>
+					<li><a href="https://www.whasapp.com.br" target="_blank">Link/www.whasapp.com.br</a></li>
+					</ul>
+				</div>
+			</div>  				  
+  			<div id="footer">
+				  <center>Footer</center>
+			</div>
+	  	</div>
+  </body>
+  </html>
+
